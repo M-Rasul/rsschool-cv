@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="favicon/ico" href="./assets/img/cv.ico">
+    <link rel="icon" href="./assets/img/cv.ico">
     <title>CV</title>
 </head>
 <body>
@@ -55,7 +55,64 @@
                     </div>
                 </div>
             </div>
+            <div class="skills">
+                <div class="skill" id="tech">
+                    <h2>Technical Skills</h2>
+                    <div class="technical">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React JS</li>
+                            <li>Rest API</li>
+                            <li>Python</li>
+                            <li>C++</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill" id="code">
+                    <h2>Piece of my code</h2>
+                    <div class="code">
+                        <textarea cols="30" rows="10" disabled="true">btnStart.addEventListener("click", function () {
+                            myIntervalMsec = setInterval(updateMsec, 10);
+                            btnStart.disabled = "true";
+                          });
+                          btnStop.addEventListener("click", function () {
+                            btnStart.disabled = false;
+                            clearInterval(myIntervalMsec);
+                          });</textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="skills no-border">
+                <div class="skill" id="projects">
+                    <h2>Projects</h2>
+                    <div class="projects">
+                        <ul>
+                            <li><a href="https://github.com/M-Rasul/JavaScript/tree/master/Guess%20My%20Number%20Game">Guess My Number</a></li>
+                            <li><a href="https://github.com/M-Rasul/JavaScript/tree/master/Bankist">Bankist App</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill" id="general">
+                    <h2>General Skills</h2>
+                    <div class="general">
+                        <ul>
+                            <li>English - C1 (Got 7.5 overall band in IELTS exam)</li>
+                            <li>Communication</li>
+                            <li>Team Work</li>
+                            <li>Organizational</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"></a>
+            <a href="https://github.com/M-Rasul" class="github"><p>&copy; Rasul Mamashev</p></a>
+        </footer>    
     </div>
     <script src="index.js"></script>
 </body>
